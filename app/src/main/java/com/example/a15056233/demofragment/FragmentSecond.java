@@ -31,6 +31,7 @@ public class FragmentSecond extends Fragment {
             public void onClick(View v) {
                 String data = tvFrag2.getText().toString() + "\n" + "New Data F2";
                 tvFrag2.setText(data);
+                tvFrag2.getText().toString();
             }
         });
 
